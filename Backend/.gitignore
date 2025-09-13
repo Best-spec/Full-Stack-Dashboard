@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Django stuff:
+*.log
+*.pot
+*.pyo
+*.db
+*.sqlite3
+db.sqlite3
+
+# Media / file uploads
+/media/
+*.media
+
+# Static file dumps
+/staticfiles/
+staticfiles/
+
+# VS Code
+.vscode/
+
+# Mac / Windows junk
+.DS_Store
+Thumbs.db
+
+# Python dotenv environment file
+.env
+
+# migrations if you want to reset sometimes (optional)
+**/migrations/*.pyc
+**/migrations/__pycache__/
