@@ -3,7 +3,6 @@
 // หน้าที่: จัดการ Date Range Pickers และ Toggle สำหรับการเปรียบเทียบ
 // ===================================
 import { getDateRange1, getDateRange2, setDateRange1, setDateRange2, get_btn_id } from '../datetime.js';
-import { period } from '../script.js';
 
 class DatePickerManager {
   constructor(analyzeCallback) {
