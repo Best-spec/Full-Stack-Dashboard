@@ -1,14 +1,9 @@
-import Header from "./components/header"
-import Hero from "./components/hero"
+import Dashboard from "@/features/dashboard/page"
 
 export default function Home() {
   return (
     <>
-      <h1>
-        Hello, Next.js!
-      </h1>
-      <Header />
-      <Hero />
+      <Dashboard />
     </>
   )
 }
