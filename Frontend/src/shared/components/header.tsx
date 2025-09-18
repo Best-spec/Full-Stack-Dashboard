@@ -9,7 +9,7 @@ export default function Header() {
   return (
     <>
       {/* Header */}
-      <header className="bg-white shadow-lg h-16 fixed w-full z-50">
+      <header className="h-16 w-full bg-white/90 backdrop-blur-lg shadow-lg border-b border-gray-200 top-0 z-20">
         <div className="flex justify-between items-center h-full px-6 md:px-16">
           {/* Left: Logo + Hamburger */}
           <div className="flex items-center gap-4">
@@ -29,8 +29,10 @@ export default function Header() {
 
           {/* Right Section (desktop only) */}
           <div className="hidden lg:flex gap-8 items-center">
-            <span>role</span>
-            <span>username</span>
+            <div className="flex flex-col text-right text-black/70">
+              <span>role</span>
+              <span>username</span>
+            </div>
             <button className="p-3 bg-red-500 text-white rounded-xl hover:scale-105 active:scale-95 shadow-md hover:shadow-lg transition-all duration-300">
               ออกจากระบบ
             </button>
